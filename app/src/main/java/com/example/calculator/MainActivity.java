@@ -138,6 +138,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setText();
                 flag=OperationFlag.Div;
                 break;
+            case R.id.tvDisplay:
+                setText("");
+                break;
 
             case R.id.btnEqual:
                 if (counter == 0)
